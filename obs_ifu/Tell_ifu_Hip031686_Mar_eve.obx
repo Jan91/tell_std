@@ -1,0 +1,67 @@
+name	"Tell_ifu_Hip031686_Mar_eve"
+userComments	"Telluric standard, created by Jan Bolmer"
+InstrumentComments	""
+userPriority	"1"
+type	"O"
+
+
+TARGET.NAME	"Hip031686"
+propRA	"0.00223"
+propDec	"-0.01133"
+diffRA	"0.0"
+diffDec	"0.0"
+equinox	"J2000"
+epoch	"2000.0"
+ra	"06:15:25.128"
+dec	"16:08:35.42"
+
+
+CONSTRAINT.SET.NAME	"No Name"
+seeing	"2.0"
+sky_transparency	"Photometric"
+air_mass	"2.8"
+fractional_lunar_illumination	"1.0"
+moon_angular_distance	"30"
+strehlratio	"0.0"
+twilight	"0"
+watervapour	"0.0"
+atm	"no constraint"
+contrast	"0.0"
+description	""
+
+
+OBSERVATION.DESCRIPTION.NAME	"Tell_ifu_Hip031686_Mar_eve"
+instrument	"XSHOOTER"
+
+
+ACQUISITION.TEMPLATE.NAME	"XSHOOTER_ifu_acq"
+TEL.AG.GUIDESTAR	"CATALOGUE"
+TEL.GS1.ALPHA	"00:00:00.000"
+TEL.GS1.DELTA	"00:00:00.000"
+TEL.ROT.OFFANGLE	"9999.0"
+TEL.TARG.OFFSETALPHA	"0.0"
+TEL.TARG.OFFSETDELTA	"0.0"
+TEL.TRACK.WLEN	"470"
+INS.FILT1.NAME	"V"
+DET4.WIN1.UIT1	"0.005"
+
+
+TEMPLATE.NAME	"XSHOOTER_ifu_cal_TelluricStdOffset"
+DET1.WIN1.UIT1	"4.0"
+DET1.READ.CLKDESCR	"400k/1pt/lg"
+DET2.WIN1.UIT1	"4.0"
+DET2.READ.CLKDESCR	"400k/1pt/lg"
+DET3.DIT	"3.5"
+DET3.NDIT	"1.0"
+SEQ.NEXPO.UVB	"1"
+SEQ.NEXPO.VIS	"1"
+SEQ.NEXPO.NIR	"1"
+SEQ.FIXOFF.RA	"1.0"
+SEQ.FIXOFF.DEC	"1.0"
+SEQ.JITTER.WIDTH	"0.0"
+SEQ.NCYCLE	"1"
+SEQ.OFFSET.ZERO	"T"
+
+
+
+
